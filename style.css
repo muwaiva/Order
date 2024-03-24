@@ -1,0 +1,78 @@
+.order {
+    display: flex;
+    flex-direction: column;
+    margin: 0 3rem;   
+}   
+
+.order h2 {
+    text-align: center;
+    font-size: 3rem;
+}
+
+#order-form {
+    background-color: rgb(139, 123, 123);
+    margin: 0 auto;
+    width: 18rem;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 20px;
+    font-size: 2rem;
+    
+}
+
+#order-form label {
+    font-family: initial;
+    font-weight: bold;
+}
+
+#order-form input {
+    border: none;
+    background-color: navajowhite;
+    padding: 0.5rem 1rem;
+    border-radius: 1rem;
+    outline: none;
+    margin: 0.5rem -0.2rem;
+    font-size: 1.2rem;
+    font-family: initial;
+    text-shadow: initial;
+    color: initial;
+}
+
+#submit {
+  align-self: center;
+  cursor: pointer;
+  margin-top: 1rem;
+  padding: 1rem 2.5rem;
+  border-radius: 1.5rem;
+  font-weight: bold;
+}
+
+#order-table {
+    margin-bottom: 2rem;
+}
+
+#order-table th:first-child {
+    border-top-left-radius: 1rem;
+}
+
+#order-table th:last-child {
+    border-top-right-radius: 1rem;
+}
+
+#order-table th{
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
+    background-color: #068b76;
+    font-family: initial;
+    font-weight: bold;
+    padding: 0.5rem;
+    font-size: 1.5rem;
+}
+
+#order-table td{
+    border: 3px solid #068b76;
+    font-family: initial;
+    font-weight: bold;
+    padding: 0.5rem;
+}
+

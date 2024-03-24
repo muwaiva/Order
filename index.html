@@ -4,10 +4,36 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>VKUSNO I TOCHKA</title>
     <script src="script.js"></script>
-    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    
+    <div>
+
+    </div>
+    <section class="order">
+            <h2>ORDER</h2>
+            <form id="order-form">
+                <label for="dish">Dish:</label>
+                <input id="dish" type="text" placeholder="KURA GRIL">
+                <label for="time">Time:</label>
+                <input id="time" type="time">
+                <label for="address">Address:</label>
+                <input id="address" type="text" placeholder="Mihalovo">
+                <label for="tel">Telephone:</label>
+                <input id="tel" type="tel" placeholder="+375">
+                <input id="submit" type="submit" value="Order">
+            </form><br><br>
+            <table id="order-table">
+                <tr>
+                    <th>Dish</th>
+                    <th>Time</th>
+                    <th>Address</th>
+                    <th>Telephone</th>
+                    <th>Download</th>
+                </tr>
+            </table>
+    </section>
 </body>
 </html>
